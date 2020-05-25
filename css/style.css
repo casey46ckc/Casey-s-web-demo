@@ -1,0 +1,184 @@
+/**clock**/
+#clock {
+    margin-left: 650px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    
+}
+
+/**index**/
+body {
+    margin: 0;
+    font-size: 30px;
+}
+
+hr {
+    background-color: white;
+    border-style: none;
+    border-top-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/**header**/
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-header {
+    background-image: url('../image/showcase.jpg');
+    
+}
+
+.container {
+    overflow:hidden;
+}
+
+.tb {
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    display: inline-block;
+    
+}
+
+#linkbar {
+    margin-right: 40px;
+}
+
+#linkbar ul {
+    list-style: none;
+}
+
+#linkbar li {
+    display: inline;
+}
+
+#linkbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 15px;
+    border-bottom: 2px solid black;
+}
+
+#linkbar a:hover {
+    border-bottom: dotted;
+}
+
+/**section**/
+/**into**/
+#image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#image img{
+    width: 400px;
+    border-radius: 250%;
+}
+
+#intro {
+    font-size: 30px;
+    text-align: center;
+}
+
+/**S2**/
+#secpart {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.lr {
+    width: 80%;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+#tvi {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#tvi img {
+    width: 400px;
+}
+
+#tv-headline {
+    font-size: 50px;
+}
+
+#tv-text {
+    font-size: 25px;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #c2789c 5%, #476e9e 100%);
+	background-color:#c2789c;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #293f66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #c2789c 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/**footer**/
+#main-footer {
+    text-align: center;
+}
+
+#main-footer p {
+    background-color: gray;
+    margin: 0px;
+    padding: 30px;
+}
+
+/**My TV show schedule**/
+
+#tv-content {
+    margin-right:20%;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+
+#tv-content a {
+    color:grey;
+    text-decoration: none;
+}
+
+#tv-content a:hover {
+    border-bottom: dotted;
+}
+
+#tv-content h3 {
+    text-align: center;
+}
+
+.tv-list {
+   margin-left: 20%;
+}
