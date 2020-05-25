@@ -1,7 +1,7 @@
 /**clock**/
 #clock {
-    margin-left: 650px;
-    position: absolute;
+    margin-left: 50px;
+    position: relative;
     font-size: 40px;
     color: white;
     text-align: center;
